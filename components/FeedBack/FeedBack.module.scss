@@ -1,14 +1,85 @@
 .feedback{
   width: 100%;
   position: relative;
+  background: url("/Group 1623.png") no-repeat;
+  background-size: 100%;
   img{
-    width: 100%;
-    height: 100%;
+
   }
   &_container{
-  
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0;
+   & img{
+     z-index: -1;
+   }
   }
   &_content{
+.feedback_flex{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 120%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  .title{
+  margin-bottom: 15px;
+  }
+  .description{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }
+  .number{
+margin-bottom: 45px;
+  }
+  .request{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .contacts{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:550px;
+    input{
+      width: 260px;
+      height: 42px;
+      border-radius: 2px;
+      border: 0;
+      outline: 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: #0E0E52;
+    }
+    button{
+      border: 0;
+      width: 260px;
+      height: 44px;
+      background: #4CF5E0;
+      box-shadow: 2px 4px 4px rgba(87, 87, 134, 0.2);
+      border-radius: 2px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      color: #0E0E52;
+
+    }
+  }
+}
 
   }
 }

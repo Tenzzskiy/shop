@@ -30,7 +30,7 @@ const Footer = ({ }):JSX.Element =>{
            </div>
            <div className={styles.yandex}> Yandex metrika badge-widget  </div>
            <div className={styles.security}> Политика конфиденциальности</div>
-               <div className={styles.footer_final}>© Arenda-plazm77,{Data.getFullYear()}  </div>
+               <div className={styles.footer_final}>© Arenda-plazm77, {Data.getFullYear()}  </div>
            </div>
            </div>
             <div>

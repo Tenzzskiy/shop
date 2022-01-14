@@ -1,6 +1,7 @@
 import styles from './Header.module.scss'
+import React,{FunctionComponent} from "react";
 
-const Header = ({ }) =>{
+const Header:FunctionComponent = ({ }) =>{
     return(
    <>
        <div className={styles.header}>
@@ -9,7 +10,7 @@ const Header = ({ }) =>{
                     <div className={styles.top_header_container}>
                         <div className={styles.top_header_container_content}>
                             <div className={styles.logo}>
-                                <img src="/Logotype.png" alt=""/>
+                                <img src="/Logotype.svg" alt=""/>
                             </div>
                             <div className={styles.busket}>
                                 <img src="/busket.svg" alt=""/>

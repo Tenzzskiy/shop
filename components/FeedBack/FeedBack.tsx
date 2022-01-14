@@ -1,12 +1,12 @@
 import styles from './FeedBack.module.scss'
+import React,{FunctionComponent} from "react";
 
-
-const FeedBack = ( { }) => {
+const FeedBack:FunctionComponent = ( { }) => {
 
     return (
         <>
             <div className={styles.feedback}>
-                {/*<img src="/Group 1623.png" alt=""/>*/}
+                <img src="/caontacts.svg" alt=""/>
                 <div className={styles.feedback_container}>
 
                 <div className={styles.feedback_content}>

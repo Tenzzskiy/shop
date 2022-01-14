@@ -1,10 +1,12 @@
 .feedback{
   width: 100%;
-  position: relative;
-  background: url("/Group 1623.png") no-repeat;
   background-size: 100%;
+background:  #F2F3FE;
   img{
-
+    z-index: 0;
+  position: absolute;
+    width: 100%;
+    height: 634px;
   }
   &_container{
     width: 1280px;
@@ -13,9 +15,7 @@
     justify-content: center;
     align-items: center;
     padding: 160px 0;
-   & img{
-     z-index: -1;
-   }
+    position: relative;
   }
   &_content{
 .feedback_flex{

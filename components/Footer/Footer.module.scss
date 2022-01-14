@@ -1,28 +1,8 @@
-.footer_final{
-  color: white;
-  width: 1280px;
-  margin: 0 auto;
-  text-align: right;
-position: absolute;
-  bottom: -35px;
-  color: rgba(207, 207, 220, 1);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 120%;
-}
+
 .footer{
 
   background: rgba(38, 38, 38, 1);
 
-    .networks{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: relative;
-      height: 142px;
-      align-items: flex-end;
-    }
     .img_flex{
       display: flex;
       flex-direction: row;
@@ -33,79 +13,109 @@ position: absolute;
       }
     }
 
-  &_container{
-    position: relative;
-    width: 1280px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    padding: 60px 32px 60px 32px;
-    grid-auto-rows: minmax(28px, auto);
-    row-gap: 12px;
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 140%;
-    .box1{
-      grid-row: 1/3;
-    }
-    .box2{
-      grid-column: 1/2;
-      grid-row: 3/5;
-      span{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 120%;
-      }
-      div{
-
-
-
-      }
-    }
-    .box5{
-       &_flex{
-         display: flex;
-         flex-direction: row;
-       }
-    }
-    .box6{
-    grid-row: 4 /5;
-    }
-    .yandex{
-      width: 150px;
-      height: 64px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: white;
-      color: rgba(14, 14, 82, 1);
-      text-align: center;
+  &_container {
+    .item16{
+      text-align: right;
+      padding-right: 32px;
+      color: #CFCFDC;
       font-style: normal;
       font-weight: normal;
       font-size: 15px;
-      line-height: 15px;
-      max-width: 150px;
-      max-height: 50px;
-    }
-    .security{
-      text-align: right;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 15px;
       line-height: 120%;
-      color: rgba(207, 207, 220, 1);
-
+      padding-bottom: 70px;
     }
-    .box14{
-    grid-row: 1 /5;
-      grid-column: 4/ 5;
-      width: 182px;
-      padding-left: 74px;
+    .content {
+      margin-bottom: 15px;
+      padding: 60px 32px 0 32px;
+      .flex1{
+        display: flex;
+        flex-direction: column;
+        width: (412/1280)*100%;
+        .item1{
+          height: 45px;
+        }
+        .item2{
+          margin-bottom: 20px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 140%;
+        }
+        .item3{
+        font-style: normal;
+          font-weight: normal;
+          font-size: 32px;
+          line-height: 120%;
+        margin-bottom: 10px;
+        }
+        .item4{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 120%;
+        }
+      }
+
+      .flex2{
+        display: flex;
+        flex-direction: column;
+        width: (309/1280)*100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        justify-content: space-between;
+
+      }
+      .flex3{
+        display: flex;
+        flex-direction: column;
+        width: (311/1280)*100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        justify-content: space-between;
+      }
+      .flex4{
+        display: flex;
+        flex-direction: column;
+        width: (248/1280)*100%;
+        align-items: flex-end;
+        justify-content: space-between;
+        .item13{
+display: flex;
+          justify-content: space-between;
+          width: 75%;
+        }
+        .item14{
+          width: 150px;height: 50px;
+          background: white;
+          color: var(--description);
+          text-align: center;
+
+        }
+        .item15{
+          text-align: right;
+          color:#CFCFDC;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 120%;
+          width: 170px;
+        }
+      }
+      color: white;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      display: flex;
+      flex-direction: row;
     }
 
-
+    width: 1280px;
+    margin: 0 auto;
   }
+
 }

@@ -1,8 +1,14 @@
 .sale{
+  .sale_svg{
+    width: 100%;
+    height: 698px;
+    z-index: -2;
+    position: absolute;
+  }
   width: 100%;
   height: 700px;
   background-position: center;
-  background: var(--brand-color);
+
   .container{
     width: 1280px;
     margin: 0 auto;

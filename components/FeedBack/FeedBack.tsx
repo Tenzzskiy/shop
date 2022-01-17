@@ -5,7 +5,9 @@ const FeedBack:FunctionComponent = ( { }) => {
 
     return (
         <>
+
             <div className={styles.feedback}>
+                <img className={styles.img} src="/caontacts.svg" alt=""/>
                 <div className={styles.feedback_container}>
 
                 <div className={styles.feedback_content}>

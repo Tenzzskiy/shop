@@ -7,7 +7,7 @@ const Sale:FunctionComponent = (  { })  =>{
     return(
         <>
 <div className={styles.sale}>
-
+    <img className={styles.sale_svg} src="/sale.svg" alt=""/>
 <div className={styles.container}>
     <div className={styles.content}>
 <div className={styles.offer}>

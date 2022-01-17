@@ -5,6 +5,11 @@ import Seo from "../components/SEO/SEO";
 import React from "react";
 import Sale from "../components/Sale/Sale";
 import HeaderComponent from "../components/HeaderComponent/HeaderComponent";
+import {Preferences} from "../components/Preferences/Preferences";
+import {Partners} from "../components/Partners/Partners";
+import {Conditions} from "../components/Conditions/Conditions";
+import {Cleaning} from "../components/Cleaning/Cleaning";
+
 const Home = ({  }) => {
   return (
     <Layout>
@@ -13,6 +18,12 @@ const Home = ({  }) => {
             title='Аренда плазмы'
             mainImg="/backgroundHeaderComponent.png"
         />
+        <Preferences
+            count={4}
+        />
+        <Partners />
+        <Conditions />
+        <Cleaning />
 <Sale />
 <Releases
     img1='/releases1(1).png'

@@ -16,6 +16,7 @@
       height: 59px;
       justify-content: center;
       align-items: center;
+
       .contacts{
         align-items: center;
         text-align: right;
@@ -66,20 +67,27 @@
     .content{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      color: white;
+
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 140%;
       padding: 0 32px;
+       a:hover{
+        background: var(--brand-color);
+      }
 
-      div{
+      a{
         height: 56px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-
+        outline: none;
+        border: 0;
+        text-decoration: none;
+        transition: all 0.4s;
+        color: white;
       }
     }
   }

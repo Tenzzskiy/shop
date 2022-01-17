@@ -1,5 +1,6 @@
 import styles from './Header.module.scss'
 import React,{FunctionComponent} from "react";
+import Link from "next/link";
 
 const Header:FunctionComponent = ({ }) =>{
     return(
@@ -27,14 +28,15 @@ const Header:FunctionComponent = ({ }) =>{
                <div className={styles.bottom_header}>
                     <div className={styles.bottom_header_container}>
                         <div className={styles.content}>
-                        <div> Плазмы</div>
-                        <div> Светодиодные экраны</div>
-                        <div> Видеостены</div>
-                        <div> Сенсорные тач-панели</div>
-                        <div> Проекторы</div>
-                        <div> Ноутбуки</div>
-                        <div> Звук, Свет и окружение</div>
-                        <div> Дезинфекция</div>
+                            <Link href='/' activeClassName='active'><a>Плазмы</a></Link>
+                            <Link href='/Screens'><a>Светодиодные экраны</a></Link>
+                            <Link href='/VideoWalls'><a>Видеостены</a></Link>
+                            <Link href='/TouchPanel'><a>Сенсорные тач-панели</a></Link>
+                            <Link href='/Projectors'><a>Проекторы</a></Link>
+                            <Link href='/Laptops'><a>Ноутбуки</a></Link>
+                            <Link href='/Sound'><a>Звук, Свет и окружение</a></Link>
+                            <Link href='/Desinfection'><a>Дезинфекция</a></Link>
+
 
 
                         </div>

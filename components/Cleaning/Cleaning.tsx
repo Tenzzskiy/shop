@@ -10,7 +10,6 @@ export const Cleaning:FunctionComponent = ( { }) =>{
                 <div className={styles.cleaning}>
 
                 <div className={styles.container}>
-                    <img className={styles.virus} src="virus.svg" alt=""/>
                 <div className={styles.content}>
                     <div className={styles.title}>
                         Обеспечим безопасность вашего мероприятия

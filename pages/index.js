@@ -20,6 +20,7 @@ const Home = ({  }) => {
         />
         <Preferences
             count={4}
+            title='Ваши выгоды с PLAZMA77'
         />
         <Partners />
         <Conditions />

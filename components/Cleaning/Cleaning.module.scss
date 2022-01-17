@@ -1,13 +1,6 @@
 .cleaning{
   width: 100%;
-
-  .virus{
-    position: absolute;
-    bottom: 0;
-
-    z-index: -4;
-
-  }
+  background: yellow;
   .container{
     position: relative;
     width: 1280px;
@@ -22,7 +15,8 @@
         font-size: 45px;
         line-height: 120%;
         width: 800px;
-        margin: 100px auto 30px auto;
+        padding: 100px 0 30px 0;
+        margin: 0 auto;
       }
       .subtitle{
         font-style: normal;

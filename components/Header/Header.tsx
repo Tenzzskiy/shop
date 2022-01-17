@@ -1,13 +1,31 @@
 import styles from './Header.module.scss'
-import React,{FunctionComponent} from "react";
+import React, {FunctionComponent, useState} from "react";
 import Link from "next/link";
+import {useRouter} from "next/router";
+import cn from 'classnames'
+
 
 const Header:FunctionComponent = ({ }) =>{
+    const route = useRouter()
+    const [scroll, setScroll] = React.useState(0);
+    const [lastScroll,setLastScroll] = useState(1)
+    const handleScroll = () => {
+        setScroll(window.scrollY);
+        setLastScroll(scroll)
+    };
+    React.useEffect(() => {
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    });
+
     return(
    <>
-       <div className={styles.header}>
+       <div className={cn(styles.header,
+            scroll>lastScroll ? styles.header_fixed : null
+        )} >
 
-            <div className={styles.top_header}>
+            <div className={styles.top_header} >
                     <div className={styles.top_header_container}>
                         <div className={styles.top_header_container_content}>
                             <div className={styles.logo}>
@@ -28,14 +46,39 @@ const Header:FunctionComponent = ({ }) =>{
                <div className={styles.bottom_header}>
                     <div className={styles.bottom_header_container}>
                         <div className={styles.content}>
-                            <Link href='/' activeClassName='active'><a>Плазмы</a></Link>
-                            <Link href='/Screens'><a>Светодиодные экраны</a></Link>
-                            <Link href='/VideoWalls'><a>Видеостены</a></Link>
-                            <Link href='/TouchPanel'><a>Сенсорные тач-панели</a></Link>
-                            <Link href='/Projectors'><a>Проекторы</a></Link>
-                            <Link href='/Laptops'><a>Ноутбуки</a></Link>
-                            <Link href='/Sound'><a>Звук, Свет и окружение</a></Link>
-                            <Link href='/Desinfection'><a>Дезинфекция</a></Link>
+                            <Link href='/' ><a className={cn(styles.a,
+                                route.asPath === '/' ? styles.a_active : null
+
+                            )} >Плазмы</a></Link>
+                            <Link href='/Screens'><a className={cn(styles.a,
+                                route.asPath === '/Screens' ? styles.a_active : null
+
+                            )}
+                            >Светодиодные экраны</a></Link>
+                            <Link href='/VideoWalls'><a className={cn(styles.a,
+                                route.asPath === '/VideoWalls' ? styles.a_active : null
+
+                            )}>Видеостены</a></Link>
+                            <Link href='/TouchPanel'><a className={cn(styles.a,
+                                route.asPath === '/TouchPanel' ? styles.a_active : null
+
+                            )} >Сенсорные тач-панели</a></Link>
+                            <Link href='/Projectors'><a className={cn(styles.a,
+                                route.asPath === '/Projectors' ? styles.a_active : null
+
+                            )}>Проекторы</a></Link>
+                            <Link href='/Laptops'><a className={cn(styles.a,
+                                route.asPath === '/Laptops' ? styles.a_active : null
+
+                            )}>Ноутбуки</a></Link>
+                            <Link href='/Sound'><a className={cn(styles.a,
+                                route.asPath === '/Sound' ? styles.a_active : null
+
+                            )}>Звук, Свет и окружение</a></Link>
+                            <Link href='/Desinfection'><a className={cn(styles.a,
+                                route.asPath === '/Desinfection' ? styles.a_active : null
+
+                            )}>Дезинфекция</a></Link>
 
 
 

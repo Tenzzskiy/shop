@@ -5,7 +5,9 @@ import {number} from "prop-types";
 
 interface PreferencesProps  {
     count:number,
-    children?:ReactNode
+    children?:ReactNode,
+    title:string
+
 }
 
  export const Preferences:FunctionComponent = ( {count = 0,...props }:PreferencesProps ) => {
@@ -16,7 +18,7 @@ interface PreferencesProps  {
        <div className={styles.container}>
        <div className={styles.content}>
             <div className={styles.title}>
-                Ваши выгоды с PLAZMA77
+                {props.title}
             </div>
 
            {count === 1 ? <LeftPreference /> : null}

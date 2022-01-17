@@ -4,12 +4,12 @@
   .container{
     width: 1280px;
     margin: 0 auto;
-    padding-top: 80px;
+
     img{
-      margin: 100px auto;
+      margin: 100px auto 0 auto;
       position: relative;
-      border: 22px solid #0E0E52;
-      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
     }
     display: flex;
     justify-content: center;
@@ -19,20 +19,22 @@
     .content{
       color: white;
       position: absolute;
-    display: flex;
+      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 0 auto;
       .title{
-        margin-bottom: 40px;
+        margin-bottom: 100px;
         font-style: normal;
         font-weight: bold;
         font-size: 75px;
         line-height: 120%;
+        width: 700px;
+        text-align: center;
       }
       .button{
-      margin-bottom: 5px;
+        margin-bottom: 5px;
         & button{
           font-style: normal;
           font-weight: bold;

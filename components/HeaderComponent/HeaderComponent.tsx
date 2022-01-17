@@ -1,8 +1,13 @@
-import React, {FunctionComponent} from "react";
+import React, {FunctionComponent, ReactNode} from "react";
 import styles from './HeaderComponent.module.scss'
 
-
-const HeaderComponent:FunctionComponent = ( {title,button_text,mainImg }) =>{
+interface HeaderComponentProps {
+    children?:ReactNode
+    title:string,
+    button_text:string,
+    mainImg:string
+}
+const HeaderComponent:FunctionComponent = ( {title,button_text,mainImg }:HeaderComponentProps):JSX.Element =>{
 
     return(
         <>

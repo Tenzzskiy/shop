@@ -1,0 +1,29 @@
+.certificates{
+  width: 100%;
+  height: 780px;
+  background: #E3E1FB;;
+  .container{
+    width: 1280px;
+    margin: 0 auto;
+    .content{
+      padding: 120px 76px;
+      .title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 120%;
+        color: var(--description);
+        width: 682px;
+        text-align: center;
+        margin: 0 auto 60px auto;
+      }
+      .grid{
+display: grid;
+        grid-template-columns:267px 267px 267px 267px ;
+        gap: 20px;
+        justify-items: center;
+
+      }
+    }
+  }
+}

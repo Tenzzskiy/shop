@@ -16,9 +16,15 @@ export const Choose:FunctionComponent = ({  }) =>{
                Учитывайте следующие критерии
            </div>
            <div className={styles.grid}>
-           <div><img src="/Choose/1.svg" alt=""/></div>
-           <div><img src="/Choose/2.svg" alt=""/> </div>
-           <div> <img src="/Choose/3.svg" alt=""/></div>
+
+               <picture>
+                   <img src="/Choose/1.svg" alt=""/>
+               </picture> <picture>
+                   <img src="/Choose/2.svg" alt=""/>
+               </picture> <picture>
+                   <img src="/Choose/3.svg" alt=""/>
+               </picture>
+
            <div>1. Тип вашего контента (презентация, фото, видео)</div>
            <div>2. Размер экрана, на который планируется трансляция </div>
            <div>3. Разрешение проектора (XGA, WXGA, FullHD) </div>

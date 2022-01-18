@@ -12,6 +12,7 @@ const HeaderComponent:FunctionComponent = ( {title,button_text,mainImg }:HeaderC
     return(
         <>
             <div className={styles.header_component}>
+
             <div className={styles.container}>
                 <img src={mainImg} alt=""/>
             <div className={styles.content}>

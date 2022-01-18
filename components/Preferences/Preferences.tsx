@@ -1,16 +1,26 @@
 import React, {FunctionComponent, ReactNode} from "react";
 import styles from './Preferences.module.scss'
-import Footer from "../Footer/Footer";
-import {number} from "prop-types";
+
 
 interface PreferencesProps  {
     count:number,
     children?:ReactNode,
-    title:string
-
+    title?:string
+    leftImg?:string,
+    rightImg?:string,
+    leftTitle?:string,
+    rightTitle?:string,
+    leftText?:string,
+    rightText?:string
+    leftSecondText?:string,
+    rightSecondText?:string,
+    leftSecondTitle?:string,
+    rightSecondTitle?:string,
+    secondLeftImg?:string,
+    secondRightImg?:string
 }
 
- export const Preferences:FunctionComponent = ( {count = 0,...props }:PreferencesProps ) => {
+ export const Preferences:FunctionComponent = ( {count = 0,secondLeftImg,secondRightImg,leftImg,rightImg,leftTitle,rightTitle,leftText,rightText,rightSecondText,leftSecondText,leftSecondTitle,rightSecondTitle,...props }:PreferencesProps ) => {
 
     return(
        <>
@@ -21,15 +31,15 @@ interface PreferencesProps  {
                 {props.title}
             </div>
 
-           {count === 1 ? <LeftPreference /> : null}
-           {count === 2 ? <LeftPreference /> : null}
-           {count === 2 ? <RightPreference />: null}
-           {count === 4 ? <LeftPreference />: null}
-           {count === 4 ? <RightPreference />: null}
-           {count === 4 ? <LeftPreference />: null}
-           {count === 4 ? <RightPreference />: null}
-           {count === 5 ? <LeftPreference />: null}
-           {count === 6 ? <RightPreference />: null}
+           {count === 1 ? <LeftPreference leftImg={leftImg} leftTitle={leftTitle} leftText={leftText}/> : null}
+           {count === 2 ? <LeftPreference leftImg={leftImg} leftTitle={leftTitle} leftText={leftText}/> : null}
+           {count === 2 ? <RightPreference rightImg={rightImg} rightTitle={rightTitle} rightText={rightText}/>: null}
+           {count === 4 ? <LeftPreference leftImg={leftImg} leftTitle={leftTitle} leftText={leftText}/>: null}
+           {count === 4 ? <RightPreference rightImg={rightImg} rightTitle={rightTitle} rightText={rightText}/>: null}
+           {count === 4 ? <LeftPreference leftImg={secondLeftImg} leftTitle={leftSecondTitle}   leftText={leftSecondText}/>: null}
+           {count === 4 ? <RightPreference rightImg={secondRightImg} rightTitle={rightSecondTitle}   rightText={rightSecondText}/>: null}
+           {count === 5 ? <LeftPreference leftImg={leftImg} leftTitle={leftTitle} leftText={leftText}/>: null}
+           {count === 6 ? <RightPreference rightImg={rightImg} rightTitle={rightTitle} rightText={rightText}/>: null}
 
        </div>
 
@@ -42,25 +52,28 @@ interface PreferencesProps  {
        </>
     )
 }
-
-const LeftPreference:FunctionComponent = ( { }) =>{
+interface LeftPreferenceProps {
+    children?:ReactNode,
+    leftImg:string,
+    leftTitle:string,
+    leftText:string
+}
+const LeftPreference:FunctionComponent = ( { leftImg,leftTitle,leftText}:LeftPreferenceProps) =>{
      return(
          <>
              <div className={styles.container}>
                 <div className={styles.flex}>
                     <div className={styles.img}>
-                        <img src="/preference_test_img.png" alt=""/>
-                        <img  className={styles.background_img} src="/background_image.png" alt=""/>
+                        <img src={leftImg} alt=""/>
+                        <img  className={styles.background_img} src="/Preferences/background_image.svg" alt=""/>
                     </div>
 
                     <div className={styles.text}>
                                 <div className={styles.title_text}>
-                                    Клиентоориентированность
+                                    {leftTitle}
                                 </div>
                         <div className={styles.description_text}>
-                            Гибкая система скидок и бонусов для ивент
-                            менеджеров и организаторов мероприятий.
-                            Мы за долгосрочное сотрудничество!
+                            {leftText}
                         </div>
                     </div>
                 </div>
@@ -69,7 +82,13 @@ const LeftPreference:FunctionComponent = ( { }) =>{
          </>
      )
 }
-const RightPreference:FunctionComponent = ( { }) =>{
+interface RightPreferenceProps{
+    children?:ReactNode
+    rightImg:string,
+    rightText:string,
+    rightTitle:string
+}
+const RightPreference:FunctionComponent = ( { rightImg,rightText,rightTitle}:RightPreferenceProps) =>{
      return(
          <>
              <div className={styles.container}>
@@ -78,17 +97,15 @@ const RightPreference:FunctionComponent = ( { }) =>{
 
                      <div className={styles.text}>
                          <div className={styles.title_text}>
-                             Клиентоориентированность
+                             {rightTitle}
                          </div>
                          <div className={styles.description_text}>
-                             Гибкая система скидок и бонусов для ивент
-                             менеджеров и организаторов мероприятий.
-                             Мы за долгосрочное сотрудничество!
+                             {rightText}
                          </div>
                      </div>
                      <div className={styles.img}>
-                         <img src="/preference_test_img.png" alt=""/>
-                         <img  className={styles.background_img_2} src="/background_img_2.svg" alt=""/>
+                         <img src={rightImg} alt=""/>
+                         <img  className={styles.background_img_2} src="/Preferences/background_img2.svg" alt=""/>
                      </div>
                  </div>
                  <div className={styles.border}>  </div>

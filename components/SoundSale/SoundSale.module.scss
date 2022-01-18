@@ -1,0 +1,57 @@
+.soundSale{
+  width: 100%;
+  height: 700px;
+  position: relative;
+  .background{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    z-index: -10;
+  }
+  .container{
+    width: 1280px;
+    margin: 0 auto;
+    .content{
+      .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .img{
+        width: 50%;
+          padding-left: 100px;;
+          justify-content: center;
+          align-items: center;
+          height: 700px;
+          img:first-child{
+            position: relative;
+            left: 15px;
+            top: 200px;
+          }
+          img:last-child{
+
+          }
+
+        }
+        .sales{
+
+      .title{
+         color: #4CF5E0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 75px;
+        line-height: 120%;
+        margin-bottom: 28px;
+      }
+          .text{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 120%;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

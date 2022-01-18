@@ -29,10 +29,10 @@ const Header:FunctionComponent = ({ }) =>{
                     <div className={styles.top_header_container}>
                         <div className={styles.top_header_container_content}>
                             <div className={styles.logo}>
-                                <img src="/Logotype.svg" alt=""/>
+                                <img src="/header/Logotype.svg" alt=""/>
                             </div>
                             <div className={styles.busket}>
-                                <img src="/busket.svg" alt=""/>
+                                <img src="/header/busket.svg" alt=""/>
                                 <span> Корзина</span>
                             </div>
                             <div className={styles.contacts}>

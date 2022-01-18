@@ -10,7 +10,7 @@ const Footer:FunctionComponent = ({ }):JSX.Element =>{
        <div className={styles.footer_container}>
            <div className={styles.content}>
             <div className={styles.flex1}>
-            <div className={styles.item1}><img src="/Logotype.svg" alt=""/> </div>
+            <div className={styles.item1}><img src="/header/Logotype.svg" alt=""/> </div>
             <div className={styles.item2}> info@arenda-plazm77.ru</div>
             <div className={styles.item3}>+7 495 321-54-76 </div>
             <div className={styles.item4}>109382, Москва, пр. Егорьевский, д.2а </div>

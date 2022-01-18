@@ -1,15 +1,18 @@
 .header_component{
   width: 100%;
   background: #181824;
+
+
   .container{
     width: 1280px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 115px;
     img{
       margin: 100px auto;
       position: relative;
       border: 22px solid #0E0E52;
       box-sizing: border-box;
+      min-height: 700px;
     }
     display: flex;
     justify-content: center;
@@ -31,6 +34,8 @@
         font-weight: bold;
         font-size: 75px;
         line-height: 120%;
+        width: 700px;
+        text-align: center;
       }
       .button{
       margin-bottom: 5px;

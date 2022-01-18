@@ -1,0 +1,38 @@
+.choose{
+  width: 100%;
+  background:#F2F3FE;
+  .container{
+    width: 1280px;
+    margin: 0 auto;
+    .content{
+      padding: 120px 0;
+      color: var(--description);
+      .title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 120%;
+        text-align: center;
+        margin-bottom:10px;
+      }
+      .subTitle{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        text-align: center;
+        margin-bottom:40px;
+      }
+      .grid{
+        padding: 0 135px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 289px 289px 289px ;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+}

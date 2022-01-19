@@ -1,0 +1,1070 @@
+{
+  "mainCatalogue": [
+    {
+      "name": "Плазма 50” (113x65см)",
+      "id": "1",
+      "price": "3000",
+      "img": "/assets/images2/plazma_50.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 50” (113x65см) + cтойка",
+      "id": "2",
+      "price": "3500",
+      "img": "/assets/images2/plazma_50+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 80” (186x111см)",
+      "id": "3",
+      "price": "10000",
+      "img": "/assets/images2/plazma_80.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 80” (186x111см) + cтойка",
+      "id": "4",
+      "price": "10500",
+      "img": "/assets/images2/plazma_80+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 55” (124x73см)",
+      "id": "5",
+      "price": "3500",
+      "img": "/assets/images2/plazma_55.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 55” (124x73см) + cтойка",
+      "id": "6",
+      "price": "4000",
+      "img": "/assets/images2/plazma_55+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 60” (135x80см)",
+      "id": "7",
+      "price": "4000",
+      "img": "/assets/images2/plazma_60.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 60” (135x80см) + cтойка",
+      "id": "8",
+      "price": "4500",
+      "img": "/assets/images2/plazma_60+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 75” (169x97см)",
+      "id": "9",
+      "price": "9000",
+      "img": "/assets/images2/plazma_75.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 75” (169x97см) + cтойка",
+      "id": "10",
+      "price": "9500",
+      "img": "/assets/images2/plazma_75+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 65” (146x90см)",
+      "id": "11",
+      "price": "5000",
+      "img": "/assets/images2/plazma_65.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 65” (146x90см) + cтойка",
+      "id": "12",
+      "price": "5500",
+      "img": "/assets/images2/plazma_65+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 70” (157x90см)",
+      "id": "13",
+      "price": "8000",
+      "img": "/assets/images2/plazma_70.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 70” (157x90см) + cтойка",
+      "id": "14",
+      "price": "8500",
+      "img": "/assets/images2/plazma_70+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 86” (194x112см)",
+      "id": "15",
+      "price": "18000",
+      "img": "/assets/images2/plazma_86.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 86” (194x112см) + cтойка",
+      "id": "16",
+      "price": "18500",
+      "img": "/assets/images2/plazma_86+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 43” (98x58см)",
+      "id": "17",
+      "price": "2500",
+      "img": "/assets/images2/plazma_43.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 43” (98x58см) + cтойка",
+      "id": "18",
+      "price": "3000",
+      "img": "/assets/images2/plazma_43+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 42” (95x55см)",
+      "id": "19",
+      "price": "2500",
+      "img": "/assets/images2/plazma_42.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 42” (95x55см) + cтойка",
+      "id": "20",
+      "price": "3000",
+      "img": "/assets/images2/plazma_42+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 40” (91x53см)",
+      "id": "21",
+      "price": "2000",
+      "img": "/assets/images2/plazma_40+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 40” (91x53см) + cтойка",
+      "id": "22",
+      "price": "2500",
+      "img": "/assets/images2/plazma_40+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 32” (74x45см)",
+      "id": "23",
+      "price": "1500",
+      "img": "/assets/images2/plazma_32.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Плазма 32” (74x45см) + cтойка",
+      "id": "24",
+      "price": "2000",
+      "img": "/assets/images2/plazma_32+stoyka.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "ledScreenCatalogue": [
+    {
+      "name": "Светодиодный (LED) экран 3х2м",
+      "id": "25",
+      "price": "48000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_3x2.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 3,5х2м",
+      "id": "26",
+      "price": "56000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_2x3.5.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 4х3м",
+      "id": "27",
+      "price": "96000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_3x4.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 6х4м",
+      "id": "28",
+      "price": "180000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_4x6.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 4х2,5м",
+      "id": "29",
+      "price": "80000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_2.5x4.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 2,5х1,5м",
+      "id": "30",
+      "price": "30000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_1.5x2.5.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 5х3м",
+      "id": "31",
+      "price": "120000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_3x5.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 5х4м",
+      "id": "32",
+      "price": "160000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_1.5x2.5.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 6х3м",
+      "id": "33",
+      "price": "144000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_3x6.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Светодиодный (LED) экран 7х4м",
+      "id": "34",
+      "price": "224000",
+      "img": "/assets/images2/svetodiodnyy-led-ekran_4x7.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "videoWallCatalogue": [
+    {
+      "name": "Видеостена 2х2",
+      "id": "35",
+      "price": "17000",
+      "img": "/assets/images2/videostena_2x2.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 4х3",
+      "id": "36",
+      "price": "52000",
+      "img": "/assets/images2/videostena_4x3.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 4х4",
+      "id": "37",
+      "price": "70000",
+      "img": "/assets/images2/videostena_4x4.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 3х3",
+      "id": "38",
+      "price": "39000",
+      "img": "/assets/images2/videostena_3x3.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 2х3",
+      "id": "39",
+      "price": "26000",
+      "img": "/assets/images2/videostena_2x3.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 3х4",
+      "id": "40",
+      "price": "52000",
+      "img": "/assets/images2/videostena_3x4.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 4х5",
+      "id": "41",
+      "price": "88000",
+      "img": "/assets/images2/videostena_4x5.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Видеостена 5х5",
+      "id": "42",
+      "price": "110000",
+      "img": "/assets/images2/videostena_5x5.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "touchScreenCatalogue": [
+    {
+      "name": "Сенсорный стол 43”",
+      "id": "43",
+      "price": "24000",
+      "img": "/assets/images2/touchScreen-table_43.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный стол 50”",
+      "id": "44",
+      "price": "34000",
+      "img": "/assets/images2/touchScreen-table_50.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Тач-панель 32”",
+      "id": "45",
+      "price": "20000",
+      "img": "/assets/images2/touchScreen-panel_32.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Тач-панель 42”",
+      "id": "46",
+      "price": "22000",
+      "img": "/assets/images2/touchScreen-panel_42.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный киоск 32”",
+      "id": "47",
+      "price": "20000",
+      "img": "/assets/images2/touchScreen-kiosk_32.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный киоск 43”",
+      "id": "48",
+      "price": "22000",
+      "img": "/assets/images2/touchScreen-kiosk_43.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный стол под брендирование 32”",
+      "id": "49",
+      "price": "19000",
+      "img": "/assets/images2/touchScreen-table-pod-brendirovanie_32.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный киоск 50”",
+      "id": "50",
+      "price": "27000",
+      "img": "/assets/images2/touchScreen-kiosk_50.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный дизайнерский стол 55”",
+      "id": "51",
+      "price": "39000",
+      "img": "/assets/images2/touchScreen-dizaynerskiy-stol_55.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный стол на тонкой ножке 43”",
+      "id": "52",
+      "price": "29000",
+      "img": "/assets/images2/touchScreen-na-tonkoy-nozhke_43.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный стол на ножке 43”",
+      "id": "53",
+      "price": "21000",
+      "img": "/assets/images2/touchScreen-stol-na-nozhke_43.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорный киоск 19”",
+      "id": "54",
+      "price": "10000",
+      "img": "/assets/images2/touchScreen-kiosk_50.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "projectorsCatalogue": [
+    {
+      "name": "Проектор FullHD (1920х1080px)",
+      "id": "55",
+      "price": "3000",
+      "img": "/assets/images2/proektor_1920.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор FullHD + Экран 244х244см",
+      "id": "56",
+      "price": "4500",
+      "img": "/assets/images2/proektor_1920+ekran.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор WXGA (1280х800px) Короткофокусный",
+      "id": "57",
+      "price": "3500",
+      "img": "/assets/images2/proektor_1280-korotkofokusnyy.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор WXGA (1280х800px) Короткофокусный + Экран 220х300см",
+      "id": "58",
+      "price": "7000",
+      "img": "/assets/images2/proektor_1280-korotkofokusnyy+ekran.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор XGA (1024х768px)",
+      "id": "59",
+      "price": "2000",
+      "img": "/assets/images2/proektor_1024.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор XGA + Экран 160х160см",
+      "id": "60",
+      "price": "2600",
+      "img": "/assets/images2/proektor_1024+ekran.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор WXGA (1280х800px)",
+      "id": "61",
+      "price": "2600",
+      "img": "/assets/images2/proektor_1280.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор WXGA + Экран 180х180см",
+      "id": "62",
+      "price": "2600",
+      "img": "/assets/images2/proektor_1280+ekran.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "laptopsCatalogue": [
+    {
+      "name": "Профессиональный ноутбук 14-15”",
+      "id": "63",
+      "price": "1200",
+      "img": "/assets/images2/professionalnyy-noutbuk.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Проектор FullHD + Экран 244х244см",
+      "id": "64",
+      "price": "1600",
+      "img": "/assets/images2/igrovoy-noutbuk.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Базовый ноутбук 14-15”",
+      "id": "65",
+      "price": "800",
+      "img": "/assets/images2/bazovyy-noutbuk.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Престижный MacBook Pro 16”",
+      "id": "66",
+      "price": "2000",
+      "img": "/assets/images2/prestizhnyy-noutbuk.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "desinfectionCatalogue": [
+    {
+      "name": "Санитайзер для рук с сенсорным датчиком",
+      "id": "67",
+      "price": "2000",
+      "img": "/assets/images2/sanitayzer-dlya-ruk-s-sensornym-datchikom.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Антивандальный санитайзер с механической педалью",
+      "id": "68",
+      "price": "4000",
+      "img": "/assets/images2/antivandalnyy-sanitayzer-s-mehanicheskoy-pedalyu.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Механический санитайзер с педалью",
+      "id": "69",
+      "price": "4500",
+      "img": "/assets/images2/mehanicheskiy-sanitayzer-s-pedalyu.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Сенсорная стойка для дезинфекции рук и ног",
+      "id": "70",
+      "price": "12000",
+      "img": "/assets/images2/sensornaya-stoyka-dlya-dezinfekcii-ruk-i-nog.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Бактерицидный рециркулятор Advansys 20м³",
+      "id": "71",
+      "price": "3000",
+      "img": "/assets/images2/baktericidnyy-recirkulyator_20.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Бактерицидный рециркулятор Advansys 60м³",
+      "id": "72",
+      "price": "6000",
+      "img": "/assets/images2/baktericidnyy-recirkulyator_60.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Рециркулятор-облучатель Advansys 100м³",
+      "id": "73",
+      "price": "10000",
+      "img": "/assets/images2/recirkulyator-obluchatel-advansys-100.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Бактерицидный рециркулятор Advansys 80м³",
+      "id": "74",
+      "price": "8000",
+      "img": "/assets/images2/baktericidnyy-recirkulyator_80.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Комплект дезинфекции 30м³",
+      "id": "75",
+      "price": "5000",
+      "img": "/assets/images2/komplekt-dezinfekcii-30.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Автомат для масок и перчаток",
+      "id": "76",
+      "price": "14000",
+      "img": "/assets/images2/avtomat-dlya-masok-i-perchatok.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Стойка дезинфекции",
+      "id": "77",
+      "price": "16000",
+      "img": "/assets/images2/stoyka-dezinfekcii.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Портал дезинфекции",
+      "id": "78",
+      "price": "27000",
+      "img": "/assets/images2/portal-dezinfekcii.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Градусник электронный",
+      "id": "79",
+      "price": "500",
+      "img": "/assets/images2/gradusnik-elektronnyy.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Тепловизор медицинский",
+      "id": "80",
+      "price": "20000",
+      "img": "/assets/images2/teplovizor-medicinskiy.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Аппарат для надевания бахил",
+      "id": "81",
+      "price": "500",
+      "img": "/assets/images2/apparat-dlya-nadevaniya-bahil.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Автоматический аппарат для надевания бахил",
+      "id": "82",
+      "price": "10000",
+      "img": "/assets/images2/avtomaticheskiy-apparat-dlya-nadevaniya-bahil.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Маски и перчатки",
+      "id": "83",
+      "price": "20",
+      "img": "/assets/images2/maski-i-perchatki.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Раствор антисептика 5 литров",
+      "id": "84",
+      "price": "1800",
+      "img": "/assets/images2/rastvor-antiseptika-5-litrov.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Экспресс тестирование на COVID",
+      "id": "85",
+      "price": "1700",
+      "img": "/assets/images2/rastvor-antiseptika-5-litrov.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Экспресс тестирование на наличие антител к COVID",
+      "id": "86",
+      "price": "1900",
+      "img": "/assets/images2/ekspress-testirovanie-na-nalichie-antitel-k-covid.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "otherCatalogue": [
+    {
+      "name": "Звуковая система 550 Вт",
+      "id": "87",
+      "price": "8000",
+      "img": "/assets/images2/zvukovaya-sistema-550.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Звуковая система 800 Вт",
+      "id": "88",
+      "price": "11000",
+      "img": "/assets/images2/zvukovaya-sistema-800.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Вертикальная подсветка LED 24",
+      "id": "89",
+      "price": "2000",
+      "img": "/assets/images2/vertikalnaya-podsvetka-led-24.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Подсветка LED 15",
+      "id": "90",
+      "price": "1500",
+      "img": "/assets/images2/podsvetka-led-15.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Прожектор LED 36",
+      "id": "91",
+      "price": "2000",
+      "img": "/assets/images2/prozhektor-led-36.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Прожектор LED 9",
+      "id": "92",
+      "price": "1500",
+      "img": "/assets/images2/prozhektor-led-9.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Таблички-указатели",
+      "id": "93",
+      "price": "1000",
+      "img": "/assets/images2/tablichki-ukazateli.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Ограждение «канат»",
+      "id": "94",
+      "price": "1200",
+      "img": "/assets/images2/ograzhdenie-kanat.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Стойка напольная для плазмы",
+      "id": "95",
+      "price": "500",
+      "img": "/assets/images2/stoyka-napolnaya-dlya-plazmy.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ],
+  "mainAdditionals": [
+    {
+      "name": "Стойка напольная для плазмы",
+      "id": "100",
+      "price": "8000",
+      "img": "/assets/images2/zvukovaya-sistema-550.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Брендированная плашка под плазму",
+      "id": "101",
+      "price": "11000",
+      "img": "/assets/images2/zvukovaya-sistema-800.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Экспостенд 2х2 под плазму",
+      "id": "102",
+      "price": "2000",
+      "img": "/assets/images2/vertikalnaya-podsvetka-led-24.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Экспостенд 3х2 под плазму",
+      "id": "103",
+      "price": "1500",
+      "img": "/assets/images2/podsvetka-led-15.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Санитайзер для рук с сенсорным датчиком",
+      "id": "104",
+      "price": "2000",
+      "img": "/assets/images2/prozhektor-led-36.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Таблички-указатели",
+      "id": "105",
+      "price": "1500",
+      "img": "/assets/images2/prozhektor-led-9.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Подсветка LED 15",
+      "id": "106",
+      "price": "1000",
+      "img": "/assets/images2/tablichki-ukazateli.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Профессиональный ноутбук 14-15”",
+      "id": "107",
+      "price": "1200",
+      "img": "/assets/images2/ograzhdenie-kanat.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Звуковая система 800 Вт",
+      "id": "108",
+      "price": "500",
+      "img": "/assets/images2/stoyka-napolnaya-dlya-plazmy.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    },
+    {
+      "name": "Ограждение «канат»",
+      "id": "109",
+      "price": "500",
+      "img": "/assets/images2/stoyka-napolnaya-dlya-plazmy.jpg",
+      "count": "0",
+      "nights": "1",
+      "total": "0",
+      "totalResult": "0"
+    }
+  ]
+}

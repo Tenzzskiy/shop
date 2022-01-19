@@ -1,0 +1,62 @@
+.shop{
+  width: 100%;
+  padding-top: 115px;
+  background:  #F2F3FE;
+  .container{
+    width: 1280px;
+    margin: 0 auto;
+
+    .content{
+      padding:40px 32px 0 32px;
+      .title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 120%;
+        color: var(--description);
+        text-align: center;
+        margin-bottom: 40px;
+
+      }
+      .select{
+        margin-bottom: 12px;
+        option{
+          width: 212px;
+          height: 40px;
+        }
+      select{
+        color: white;
+        background: #575786;
+        border: 0.5px solid #575786;
+        box-sizing: border-box;
+        width: 212px;
+        height: 40px;
+        outline: none;
+
+      }
+      }
+      .grid{
+      display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+      .button{
+      padding-bottom: 40px;
+
+      button{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        width: 100%;
+        background: none;
+        color: #575786;
+        border: 0.5px solid rgba(87, 87, 134, 0.76);
+        border-radius: 5px;
+        padding: 5px;
+      }
+      }
+    }
+  }
+}

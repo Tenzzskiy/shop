@@ -6,8 +6,8 @@ export const Conditions:FunctionComponent = ( { }) =>{
     return(
         <>
             <div className={styles.conditions}>
-                <img className={styles.background1} src="/background1.svg" alt=""/>
-                <img className={styles.background2} src="/background2.svg" alt=""/>
+
+                <img className={styles.background2} src="/Preferences/background.svg" alt=""/>
 
                 <div className={styles.container}>
                     <div className={styles.content}>

@@ -32,11 +32,11 @@ export const Offer:FunctionComponent  = ({ }:OfferProps) =>{
 
 
     const items1 =  data.mainAdditionals.slice(0,4).map(elem  =>
-        <OfferCard price={elem.price} title={elem.name} img={elem.img}/> )
+        <OfferCard price={elem.price} title={elem.name} img={elem.img} key={elem.id}/> )
     const items2 =  data.mainAdditionals.slice(4,8).map(elem  =>
-        <OfferCard price={elem.price} title={elem.name} img={elem.img}/> )
+        <OfferCard price={elem.price} title={elem.name} img={elem.img} key={elem.id}/> )
     const items3 =  data.mainAdditionals.slice(8,10).map(elem  =>
-        <OfferCard price={elem.price} title={elem.name} img={elem.img}/> )
+        <OfferCard price={elem.price} title={elem.name} img={elem.img} key={elem.id}/> )
     const [currentSlide, setCurrentSlide] = React.useState(0);
     const [loaded, setLoaded] = useState(false);
     const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({

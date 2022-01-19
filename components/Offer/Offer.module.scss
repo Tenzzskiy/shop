@@ -1,0 +1,33 @@
+.offer{
+  width: 100%;
+  background: #E3E1FB;
+  padding-top: 115px;
+  .container{
+    width: 1280px;
+    margin: 0 auto;
+    color: var(--description);
+  .content{
+    padding: 80px 32px;
+    .flex{
+      display: flex;
+      flex-direction: row;
+
+    .empty{
+      width: 280px;
+      height: 428px;
+      background: #F2F3FE;
+      margin-right: 20px;
+    }
+    }
+    .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 120%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+  }
+
+}

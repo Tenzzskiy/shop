@@ -10,6 +10,7 @@ import {Partners} from "../components/Partners/Partners";
 import {Conditions} from "../components/Conditions/Conditions";
 import {Cleaning} from "../components/Cleaning/Cleaning";
 import {Shop} from "../components/Shop/Shop";
+import {Offer} from "../components/Offer/Offer";
 
 const Home = ({  }) => {
   return (
@@ -77,6 +78,7 @@ const Home = ({  }) => {
 {/*        />*/}
 {/*            */}
       <Shop />
+        <Offer />
     </Layout>
   )
 }

@@ -8,3 +8,59 @@ body{
     font-family: 'Rubik', sans-serif;
     margin: 0;
 }
+.arrow{
+    width: 30px;
+    height: 15px;
+    fill: #CFCFDC;;
+}
+.button-block{
+    width: 45px;
+    height: 60px;
+    box-shadow: 2px 4px 4px rgba(87, 87, 134, 0.2);
+    border-radius: 2px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keen-slider{
+
+}
+.navigation-wrapper{
+    position: relative;
+}
+.button-block--left{
+
+    position: absolute;
+    bottom: 45%;
+    left: -22px;
+    transition: all 0.3s;
+}
+
+.button-block--right{
+    position: absolute;
+    bottom: 45%;
+    right: -22px;
+    transition: all 0.3s;
+}
+.arrow--disabled{
+    background: rgba(255, 255, 255, 0.41);
+}
+.dot{
+    border: 1px solid #575786;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 14px;
+    background: none;
+    height: 14px;
+    margin-right: 8px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.active{
+    background: #575786;
+}

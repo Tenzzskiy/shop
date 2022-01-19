@@ -1,4 +1,4 @@
-import React, {FunctionComponent, ReactNode} from "react";
+import React, {FunctionComponent, ReactNode, useState} from "react";
 import styles from './ShopItem.module.scss'
 
 interface ShopItemProps{
@@ -9,6 +9,7 @@ interface ShopItemProps{
     title?:string
 }
 export const ShopItem:FunctionComponent = ( { children,price,count,img,title,...props} : ShopItemProps) =>{
+
     return(
         <>
             <div className={styles.container}>

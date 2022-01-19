@@ -7,7 +7,7 @@
     margin: 0 auto;
 
     .content{
-      padding:40px 32px 0 32px;
+      padding:40px 32px 80px 32px;
       .title{
         font-style: normal;
         font-weight: bold;
@@ -39,10 +39,14 @@
       display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
-        margin-bottom: 20px;
+
+      }
+      .button_none{
+        display: none;
       }
       .button{
       padding-bottom: 40px;
+        padding-top: 40px;
 
       button{
         font-style: normal;

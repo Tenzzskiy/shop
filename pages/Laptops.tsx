@@ -8,6 +8,7 @@ import Sale from "../components/Sale/Sale";
 import React from "react";
 import Releases from "../components/Relises/Relises";
 import Seo from "../components/SEO/SEO";
+import {Shop} from "../components/Shop/Shop";
 const Laptops = ({  }) => {
     return (
         <Layout >
@@ -31,6 +32,7 @@ const Laptops = ({  }) => {
 
             />
             <Conditions />
+            <Shop page={7} />
             <Cleaning />
             <Sale />
             <Releases

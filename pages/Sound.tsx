@@ -4,6 +4,8 @@ import MediumHeaderComponent from "../components/HeaderComponent/MediumHeader/Me
 import {Preferences} from "../components/Preferences/Preferences";
 import {Cleaning} from "../components/Cleaning/Cleaning";
 import {SoundSale} from "../components/SoundSale/SoundSale";
+import {Shop} from "../components/Shop/Shop";
+import React from "react";
 const Sound = ({  }) => {
     return (
         <Layout >
@@ -22,6 +24,7 @@ const Sound = ({  }) => {
             title='Что нужно для идеального мероприятия'
             />
             <SoundSale />
+            <Shop page={8} />
             <Cleaning />
         </Layout>
     )

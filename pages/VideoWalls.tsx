@@ -8,6 +8,7 @@ import {Cleaning} from "../components/Cleaning/Cleaning";
 import Sale from "../components/Sale/Sale";
 import Releases from "../components/Relises/Relises";
 import Seo from "../components/SEO/SEO";
+import {Shop} from "../components/Shop/Shop";
 
 const VideoWalls = ({  }) => {
     return (
@@ -26,6 +27,7 @@ const VideoWalls = ({  }) => {
                 и привлечения внимания к вашему контенту!'
             />
             <Conditions />
+            <Shop page={4} />
             <Cleaning />
             <Sale />
             <Releases

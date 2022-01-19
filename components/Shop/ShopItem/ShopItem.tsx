@@ -1,5 +1,6 @@
 import React, {FunctionComponent, ReactNode, useState} from "react";
 import styles from './ShopItem.module.scss'
+import {Selector} from "../../Select/Select";
 
 interface ShopItemProps{
     children?:ReactNode,
@@ -38,10 +39,7 @@ export const ShopItem:FunctionComponent = ( { children,price,count,img,title,...
                     }
 
                     <div className={styles.card_footer}>
-                        <select name="time">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                        </select>
+                        <Selector />
                         <span> {price}₽ </span>
                         <div className={styles.bucket}>
                             <img src="/ShopItem/busket.svg" alt=""/>

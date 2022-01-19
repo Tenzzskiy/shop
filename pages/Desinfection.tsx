@@ -6,6 +6,8 @@ import Sale from "../components/Sale/Sale";
 import Releases from "../components/Relises/Relises";
 import Seo from "../components/SEO/SEO";
 import {Certificates} from "../components/Certificates/Certificates";
+import {Shop} from "../components/Shop/Shop";
+import React from "react";
 
 const Index = ({  }) => {
     return (
@@ -29,6 +31,7 @@ const Index = ({  }) => {
             rightImg='/Preferences/Desinfection/2.png'
             />
             <Certificates />
+            <Shop page={9} />
             <Sale />
             <Releases
             text1='Портал для дезинфекции на входе'

@@ -1,5 +1,6 @@
 import React, {FunctionComponent, ReactNode} from "react";
 import styles from './OfferCard.module.scss'
+import {Selector} from "../../Select/Select";
 
 
 interface OfferCardProps{
@@ -28,7 +29,9 @@ export const OfferCard:FunctionComponent = ( {price,title,img }:OfferCardProps) 
                     <div>с полочкой-держателем </div>
                    </div>
                 <div className={styles.flex}>
-                    <div className={styles.select}> </div>
+                    <div className={styles.select}>
+                    <Selector />
+                    </div>
                     <div className={styles.price}> {price}₽</div>
                     <div className={styles.busket}>
                         <picture>

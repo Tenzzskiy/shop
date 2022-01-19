@@ -32,14 +32,14 @@ body{
 .button-block--left{
 
     position: absolute;
-    bottom: 45%;
+    bottom: 57%;
     left: -22px;
     transition: all 0.3s;
 }
 
 .button-block--right{
     position: absolute;
-    bottom: 45%;
+    bottom: 57%;
     right: -22px;
     transition: all 0.3s;
 }
@@ -60,6 +60,10 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+
 }
 .active{
     background: #575786;

@@ -8,6 +8,7 @@ import {Cleaning} from "../components/Cleaning/Cleaning";
 import Sale from "../components/Sale/Sale";
 import Releases from "../components/Relises/Relises";
 import Seo from "../components/SEO/SEO";
+import {Shop} from "../components/Shop/Shop";
 
 
 const TouchPanel = ({  }) => {
@@ -33,6 +34,7 @@ const TouchPanel = ({  }) => {
                 rightTitle='Любой контент! '
             />
             <Conditions />
+            <Shop page={5} />
             <Cleaning />
             <Sale />
             <Releases

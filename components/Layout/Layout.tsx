@@ -10,7 +10,7 @@ import React,{FunctionComponent} from "react";
 const Layout:FunctionComponent = ({children }) =>{
     return(
    <>
-       <Header />
+       {/*<Header />*/}
        {children}
 
        <FeedBack />

@@ -1,13 +1,21 @@
 import styles from './FeedBack.module.scss'
 import React,{FunctionComponent} from "react";
+import {useWindowSize} from "../../Hooks/useWindowSize";
 
 const FeedBack:FunctionComponent = ( { }) => {
-
+    const size = useWindowSize();
     return (
         <>
 
             <div className={styles.feedback}>
-                <img className={styles.img} src="/contacts/caontacts.svg" alt=""/>
+                {size.width < 600 ? <img className={styles.img} src="/contacts/contacts_360.svg" alt=""/> : null}
+                {size.width > 768 ? <img className={styles.img} src="/contacts/caontacts.svg" alt=""/> : null}
+                { size.width > 600 && size.width < 768?
+
+                    <img className={styles.img} src="/contacts/contacts_768.svg" alt=""/> :  null
+                }
+
+
                 <div className={styles.feedback_container}>
 
                 <div className={styles.feedback_content}>
@@ -28,6 +36,8 @@ const FeedBack:FunctionComponent = ( { }) => {
                         <div className={styles.contacts}>
                             <input type="text"/>
                         <button>Отправить заявку </button>
+                        <button>Отправить заявку </button>
+
                         </div>
                     </div>
                 </div>

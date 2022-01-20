@@ -1,3 +1,5 @@
+
+
 .img{
   width: 100%;
   height: 684px;
@@ -12,7 +14,7 @@ background:  #F2F3FE;
 
 
   &_container{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -42,19 +44,28 @@ background:  #F2F3FE;
     line-height: 140%;
     margin-bottom: 20px;
   }
+
+
+
+}
+
+  }
+}
+@media (max-width: 99999px){
   .number{
-margin-bottom: 45px;
+    margin-bottom: 45px;
   }
   .request{
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
+    margin-bottom: 20px;
   }
   .contacts{
-      display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:550px;
+    max-width:600px;
     input{
       width: 260px;
       height: 42px;
@@ -67,10 +78,11 @@ margin-bottom: 45px;
       line-height: 140%;
       text-align: center;
       color: #0E0E52;
+      margin-right: 16px;
     }
     button{
       border: 0;
-      width: 260px;
+      width: 264px;
       height: 44px;
       background: #4CF5E0;
       box-shadow: 2px 4px 4px rgba(87, 87, 134, 0.2);
@@ -85,6 +97,81 @@ margin-bottom: 45px;
   }
 }
 
+@media (max-width: 800px) {
+  .img{
+    height: 442px;
+  }
+  .feedback{
+    height: 442px;
+  }
+  .feedback_container{
+    padding: 75px 0;
+  }
+  .title{
+    font-size: 25px;
+  }
+  .description{
+    font-size: 15px;
+  }
+  .number{
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .request{
+    font-size: 18px;
+  }
+
+  .contacts{
+
+    button{
+      width: 224px;
+      margin-right: 16px;
+    }
+    input{
+      width:  220px;
+    }
   }
 }
+
+@media (max-width: 600px){
+  .feedback_container{
+    padding: 90px 0;
+  }
+  .contacts{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img{
+    height: 600px;
+  }
+  .feedback{
+    height: 600px;
+  }
+
+
+
+  .description{
+    font-size: 18px;
+    width: 320px;
+    text-align: center;
+  }
+
+  .request{
+    font-size: 20px;
+  }
+  .contacts{
+    button{
+      margin-bottom: 16px;
+      margin-right: 0;
+    }
+
+    input{
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+
 

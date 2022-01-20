@@ -1,17 +1,14 @@
-import React, {FunctionComponent, ReactNode} from "react";
+import React, {FunctionComponent} from "react";
 import styles from './Offer.module.scss'
 import {OfferCard} from "./OfferCard/OfferCard";
 import {useState} from "react";
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react';
 import data from './../Shop/cart_arenda-plasm77.ru.json'
-import {ShopItem} from "../Shop/ShopItem/ShopItem";
-interface OfferProps{
-    children?:ReactNode,
 
-}
 
-export const Offer:FunctionComponent  = ({ }:OfferProps) =>{
+
+export const Offer:FunctionComponent  = ({ }) =>{
     // const [currentSlide, setCurrentSlide] = React.useState(0);
     // const [loaded, setLoaded] = useState(false);
     // const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
@@ -31,10 +28,13 @@ export const Offer:FunctionComponent  = ({ }:OfferProps) =>{
     // });
 
 
+    // @ts-ignore
     const items1 =  data.mainAdditionals.slice(0,4).map(elem  =>
         <OfferCard price={elem.price} title={elem.name} img={elem.img} key={elem.id}/> )
     const items2 =  data.mainAdditionals.slice(4,8).map(elem  =>
         <OfferCard price={elem.price} title={elem.name} img={elem.img} key={elem.id}/> )
+    // @ts-ignore
+    // @ts-ignore
     const items3 =  data.mainAdditionals.slice(8,10).map(elem  =>
         <OfferCard price={elem.price} title={elem.name} img={elem.img} key={elem.id}/> )
     const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -54,6 +54,7 @@ export const Offer:FunctionComponent  = ({ }:OfferProps) =>{
 
 
 
+    // @ts-ignore
     return(
         <>
             <div className={styles.offer}>

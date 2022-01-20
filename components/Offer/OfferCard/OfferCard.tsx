@@ -1,17 +1,10 @@
-import React, {FunctionComponent, ReactNode} from "react";
+import React from "react";
 import styles from './OfferCard.module.scss'
 import {Selector} from "../../Select/Select";
 
 
-interface OfferCardProps{
-    children?:ReactNode,
-    price?:number,
-    title?:string,
-    img?:string,
-}
 
-
-export const OfferCard:FunctionComponent = ( {price,title,img }:OfferCardProps) =>{
+export const OfferCard= ( {price,title,img,...props }) =>{
 
     return(
 
@@ -32,7 +25,7 @@ export const OfferCard:FunctionComponent = ( {price,title,img }:OfferCardProps) 
                     <div className={styles.select}>
                     <Selector />
                     </div>
-                    <div className={styles.price}> {price}₽</div>
+                    <div className={styles.price}> {props.price}₽</div>
                     <div className={styles.busket}>
                         <picture>
                             <img src="/ShopItem/whiteBusket.svg" alt=""/>

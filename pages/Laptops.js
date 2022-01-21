@@ -1,4 +1,4 @@
-import styles from './Laptops/Laptops.module.scss'
+
 import Layout from "../components/Layout/Layout";
 import MediumHeaderComponent from "../components/HeaderComponent/MediumHeader/MediumHeader";
 import {Preferences} from "../components/Preferences/Preferences.js";

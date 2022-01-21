@@ -12,7 +12,7 @@ import {Shop} from "../components/Shop/Shop";
 
 
 
-const Screens:FunctionComponent = ({  }):JSX.Element => {
+const Screens = ({  })=> {
     return (
         <Layout >
         <HeaderComponent

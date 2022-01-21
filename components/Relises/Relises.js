@@ -1,17 +1,8 @@
 import styles from './Relises.module.scss'
-import React, {FunctionComponent, ReactNode} from "react";
+import React from "react";
 
 
-interface ReleasesProps{
-    children?:ReactNode,
-    text1:string,
-    text2:string,
-    text3:string,
-    text4:string,
-    text5:string
-
-}
-const Releases:FunctionComponent = ( {children,text1,text2,text3,text4,text5,...props }:ReleasesProps) =>{
+const Releases = ( {children,text1,text2,text3,text4,text5,...props }) =>{
     return(
         <>
             <div className={styles.releases}>

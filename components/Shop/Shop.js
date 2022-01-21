@@ -1,14 +1,10 @@
-import React, {FunctionComponent, ReactNode, useState} from "react";
+import React, { useState} from "react";
 import styles from './Shop.module.scss'
 import {ShopItem} from "./ShopItem/ShopItem";
 import data from './cart_arenda-plasm77.ru.json'
 
 
-interface ShopProps{
-children?:ReactNode
-    page?:number
-}
-export const Shop:FunctionComponent = ( { page,...props}:ShopProps) =>{
+export const Shop = ( { page,...props}) =>{
 
     const [step,setStep] = useState(12);
     const [buttonStyle,setButtonStyle] = useState(styles.button)

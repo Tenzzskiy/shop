@@ -39,13 +39,13 @@ const Home = ({  }) => {
 {/*            rightTitle='Огромный выбор'*/}
 {/*            rightSecondTitle='Под ключ'*/}
 {/*        />*/}
-{/*        <Partners />*/}
-{/*        <Conditions />*/}
+        <Partners />
+        <Conditions />
 {/*        <Shop page={1} />*/}
 
 {/*        <Offer />*/}
 {/*        <Cleaning />*/}
-<Sale />
+{/*<Sale />*/}
 
 {/*<Releases*/}
 {/*    img1='/releases/releases1(1).png'*/}

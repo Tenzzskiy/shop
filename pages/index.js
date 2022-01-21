@@ -94,13 +94,13 @@ const Home = ({  }) => {
         }
 
 
-{/*        <Partners />*/}
-{/*        <Conditions />*/}
+        <Partners />
+        <Conditions />
 {/*        <Shop page={1} />*/}
 
 {/*        <Offer />*/}
-{/*        <Cleaning />*/}
-{/*<Sale />*/}
+        <Cleaning />
+<Sale />
 
 {/*<Releases*/}
 {/*    img1='/releases/releases1(1).png'*/}
@@ -141,7 +141,7 @@ const Home = ({  }) => {
 {/*        />*/}
 
 
-    {/*<PreferenceCard />*/}
+
     </Layout>
   )
 }

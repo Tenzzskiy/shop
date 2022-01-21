@@ -1,26 +1,10 @@
-import React, {FunctionComponent, ReactNode} from "react";
+import React from "react";
 import styles from './Preferences.module.scss'
 
 
-interface PreferencesProps  {
-    count:number,
-    children?:ReactNode,
-    title?:string
-    leftImg?:string,
-    rightImg?:string,
-    leftTitle?:string,
-    rightTitle?:string,
-    leftText?:string,
-    rightText?:string
-    leftSecondText?:string,
-    rightSecondText?:string,
-    leftSecondTitle?:string,
-    rightSecondTitle?:string,
-    secondLeftImg?:string,
-    secondRightImg?:string
-}
 
- export const Preferences:FunctionComponent = ( {count = 0,secondLeftImg,secondRightImg,leftImg,rightImg,leftTitle,rightTitle,leftText,rightText,rightSecondText,leftSecondText,leftSecondTitle,rightSecondTitle,...props }:PreferencesProps ) => {
+
+ export const Preferences = ( {count = 0,secondLeftImg,secondRightImg,leftImg,rightImg,leftTitle,rightTitle,leftText,rightText,rightSecondText,leftSecondText,leftSecondTitle,rightSecondTitle,...props } ) => {
 
     return(
        <>
@@ -41,6 +25,7 @@ interface PreferencesProps  {
            {count === 5 ? <LeftPreference leftImg={leftImg} leftTitle={leftTitle} leftText={leftText}/>: null}
            {count === 6 ? <RightPreference rightImg={rightImg} rightTitle={rightTitle} rightText={rightText}/>: null}
 
+
        </div>
 
 
@@ -52,13 +37,8 @@ interface PreferencesProps  {
        </>
     )
 }
-interface LeftPreferenceProps {
-    children?:ReactNode,
-    leftImg:string,
-    leftTitle:string,
-    leftText:string
-}
-const LeftPreference:FunctionComponent = ( { leftImg,leftTitle,leftText}:LeftPreferenceProps) =>{
+
+const LeftPreference = ( { leftImg,leftTitle,leftText}) =>{
      return(
          <>
              <div className={styles.container}>
@@ -82,13 +62,8 @@ const LeftPreference:FunctionComponent = ( { leftImg,leftTitle,leftText}:LeftPre
          </>
      )
 }
-interface RightPreferenceProps{
-    children?:ReactNode
-    rightImg:string,
-    rightText:string,
-    rightTitle:string
-}
-const RightPreference:FunctionComponent = ( { rightImg,rightText,rightTitle}:RightPreferenceProps) =>{
+
+const RightPreference = ( { rightImg,rightText,rightTitle}) =>{
      return(
          <>
              <div className={styles.container}>

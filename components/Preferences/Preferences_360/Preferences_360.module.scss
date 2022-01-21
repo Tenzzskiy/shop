@@ -1,0 +1,26 @@
+.dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: 40%;
+}
+.mainTitle{
+
+  color: var(--description);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+
+  max-width: 280px;
+  margin: 120px auto 80px auto;
+}
+
+.container{
+  margin-bottom: 45px;
+  position: relative;
+}

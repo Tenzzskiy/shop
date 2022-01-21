@@ -5,7 +5,6 @@ import Seo from "../components/SEO/SEO";
 import React from "react";
 import Sale from "../components/Sale/Sale";
 import HeaderComponent from "../components/HeaderComponent/HeaderComponent";
-import {Preferences} from "../components/Preferences/Preferences";
 import {Partners} from "../components/Partners/Partners";
 import {Conditions} from "../components/Conditions/Conditions";
 import {Cleaning} from "../components/Cleaning/Cleaning";
@@ -14,33 +13,89 @@ import {Offer} from "../components/Offer/Offer";
 import {Selector} from "../components/Select/Select";
 import MainHeaderComponent from "../components/HeaderComponent/MainHeaderComponent/MainHeaderComponent";
 import Sale_768 from "../components/Sale/Sale_768/Sale_768";
+import {PreferenceCard} from "../components/Preferences/PreferenceCard/PreferenceCard";
+import {Left} from "../components/Preferences/LeftPreference_tablet/left";
+import {Preferences_768, Right} from "../components/Preferences/Right/right";
+import {useWindowSize} from "../Hooks/useWindowSize";
+import {Preferences_360} from "../components/Preferences/Preferences_360/Preferences_360.js";
+import {Preferences} from "../components/Preferences/Preferences";
 
 const Home = ({  }) => {
+    const size = useWindowSize();
   return (
     <Layout>
 {/*        <MainHeaderComponent />*/}
-{/*        <Preferences*/}
-{/*            count={4}*/}
-{/*            title='Ваши выгоды с PLAZMA77'*/}
-{/*            leftImg="/Preferences/1.png"*/}
-{/*            rightImg="/Preferences/2.png"*/}
-{/*            secondLeftImg='/Preferences/3.png'*/}
-{/*            secondRightImg='/Preferences/4.png'*/}
-{/*            leftText='Гибкая система скидок и бонусов для ивент менеджеров*/}
-{/*             и организаторов мероприятий. Мы за долгосрочное сотрудничество!'*/}
-{/*            leftSecondText='Работаем в сфере организации частных*/}
-{/*             и корпоративных мероприятий с 2007 года, и точно знаем своё дело!'*/}
-{/*            leftTitle='Клиентоориентированность'*/}
-{/*            leftSecondTitle='Квалификация'*/}
-{/*            rightText='В зависимости от задач мы подберем для вас плазму*/}
-{/*            либо соберем видеостену, либо смонтируем масштабную светодиодную сцену!'*/}
-{/*            rightSecondText='Возьмём на себя все вопросы по инсталяции и избавим вас от*/}
-{/*             головной боли! Монтаж и демонтаж уже включены в стоимость!'*/}
-{/*            rightTitle='Огромный выбор'*/}
-{/*            rightSecondTitle='Под ключ'*/}
-{/*        />*/}
-        <Partners />
-        <Conditions />
+        {size.width > 1200 ?
+            <Preferences
+                count={4}
+                title='Ваши выгоды с PLAZMA77'
+                leftImg="/Preferences/1.png"
+                rightImg="/Preferences/2.png"
+                secondLeftImg='/Preferences/3.png'
+                secondRightImg='/Preferences/4.png'
+                leftText='Гибкая система скидок и бонусов для ивент менеджеров
+            и организаторов мероприятий. Мы за долгосрочное сотрудничество!'
+                leftSecondText='Работаем в сфере организации частных
+            и корпоративных мероприятий с 2007 года, и точно знаем своё дело!'
+                leftTitle='Клиентоориентированность'
+                leftSecondTitle='Квалификация'
+                rightText='В зависимости от задач мы подберем для вас плазму
+            либо соберем видеостену, либо смонтируем масштабную светодиодную сцену!'
+                rightSecondText='Возьмём на себя все вопросы по инсталяции и избавим вас от
+            головной боли! Монтаж и демонтаж уже включены в стоимость!'
+                rightTitle='Огромный выбор'
+                rightSecondTitle='Под ключ'
+            /> : null
+
+        }
+        {size.width < 1200 && size.width > 720 ?
+            <Preferences_768
+                count={4}
+                title='Ваши выгоды с PLAZMA77'
+                leftImg="/Preferences/1.png"
+                rightImg="/Preferences/2.png"
+                secondLeftImg='/Preferences/3.png'
+                secondRightImg='/Preferences/4.png'
+                leftText='Гибкая система скидок и бонусов для ивент менеджеров
+            и организаторов мероприятий. Мы за долгосрочное сотрудничество!'
+                leftSecondText='Работаем в сфере организации частных
+            и корпоративных мероприятий с 2007 года, и точно знаем своё дело!'
+                leftTitle='Клиентоориентированность'
+                leftSecondTitle='Квалификация'
+                rightText='В зависимости от задач мы подберем для вас плазму
+            либо соберем видеостену, либо смонтируем масштабную светодиодную сцену!'
+                rightSecondText='Возьмём на себя все вопросы по инсталяции и избавим вас от
+            головной боли! Монтаж и демонтаж уже включены в стоимость!'
+                rightTitle='Огромный выбор'
+                rightSecondTitle='Под ключ'
+            /> : null
+        }
+        {
+            size.width <720 ?
+                <Preferences_360
+                    mainTitle='Ваши выгоды с PLAZMA77'
+                    leftImg="/Preferences/1.png"
+                    rightImg="/Preferences/2.png"
+                    secondLeftImg='/Preferences/3.png'
+                    secondRightImg='/Preferences/4.png'
+                    leftText='Гибкая система скидок и бонусов для ивент менеджеров
+            и организаторов мероприятий. Мы за долгосрочное сотрудничество!'
+                    leftSecondText='Работаем в сфере организации частных
+            и корпоративных мероприятий с 2007 года, и точно знаем своё дело!'
+                    leftTitle='Клиентоориентированность'
+                    leftSecondTitle='Квалификация'
+                    rightText='В зависимости от задач мы подберем для вас плазму
+            либо соберем видеостену, либо смонтируем масштабную светодиодную сцену!'
+                    rightSecondText='Возьмём на себя все вопросы по инсталяции и избавим вас от
+            головной боли! Монтаж и демонтаж уже включены в стоимость!'
+                    rightTitle='Огромный выбор'
+                    rightSecondTitle='Под ключ'
+                /> : null
+        }
+
+
+{/*        <Partners />*/}
+{/*        <Conditions />*/}
 {/*        <Shop page={1} />*/}
 
 {/*        <Offer />*/}
@@ -86,7 +141,7 @@ const Home = ({  }) => {
 {/*        />*/}
 
 
-
+    {/*<PreferenceCard />*/}
     </Layout>
   )
 }

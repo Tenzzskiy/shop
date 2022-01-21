@@ -7,8 +7,8 @@ import {Conditions_360} from "./Conditions_360/Conditions_360";
 export const Conditions:FunctionComponent = ( { }) =>{
     const size = useWindowSize();
     return(
-        <>{size.width < 700 ? <Conditions_360 /> : null}
-            {size.width > 700 ?
+        <>{size.width < 720 ? <Conditions_360 /> : null}
+            {size.width > 720 ?
                 <div className={styles.conditions}>
 
                     <img className={styles.background2} src="/Preferences/background.svg" alt=""/>

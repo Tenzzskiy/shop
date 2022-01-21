@@ -8,7 +8,7 @@ export const Partners:FunctionComponent = ( { }) =>{
     const size = useWindowSize();
     return(
         <>
-            {size.width > 690 ?
+            {size.width > 720 ?
                 <div className={styles.partners}>
                     <div className={styles.container}>
                         <div className={styles.content}>
@@ -30,7 +30,7 @@ export const Partners:FunctionComponent = ( { }) =>{
                 </div> : null
 
             }
-            {size.width < 690 ?
+            {size.width < 720 ?
                 <Partners_360 /> : null
             }
         </>

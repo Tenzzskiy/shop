@@ -10,14 +10,14 @@ export const Cleaning:FunctionComponent = ( { }) =>{
 
         <>
             {
-                size.width > 700 ?
+                size.width > 720 ?
                     <div className={styles.cleaning}>
 
                         <div className={styles.container}>
-                            {size.width < 1060 ?
+                            {size.width < 1200 ?
                                 <img className={styles.background} src="/Desinfection/virus_768.svg" alt=""/>: null
                             }
-                            {size.width > 1060 ?
+                            {size.width > 1200 ?
                                 <img className={styles.background} src="/Desinfection/virus.svg" alt=""/>: null
                             }
                             <div className={styles.content}>
@@ -29,7 +29,7 @@ export const Cleaning:FunctionComponent = ( { }) =>{
                                         Большой ассортимент сертифицированного
                                         оброрудования и средств защиты
 
-                                        {size.width}
+
                                     </div>
 
                                 </div>
@@ -60,7 +60,7 @@ export const Cleaning:FunctionComponent = ( { }) =>{
                     </div> : null
 
             }
-            {size.width < 700 ? <Cleaning_360 /> : null}
+            {size.width < 720 ? <Cleaning_360 /> : null}
 
         </>
     )

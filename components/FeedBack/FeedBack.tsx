@@ -8,9 +8,9 @@ const FeedBack:FunctionComponent = ( { }) => {
         <>
 
             <div className={styles.feedback}>
-                {size.width < 600 ? <img className={styles.img} src="/contacts/contacts_360.svg" alt=""/> : null}
-                {size.width > 768 ? <img className={styles.img} src="/contacts/caontacts.svg" alt=""/> : null}
-                { size.width > 600 && size.width < 768?
+                {size.width < 720 ? <img className={styles.img} src="/contacts/contacts_360.svg" alt=""/> : null}
+                {size.width > 1200 ? <img className={styles.img} src="/contacts/caontacts.svg" alt=""/> : null}
+                { size.width > 720 && size.width < 1200?
 
                     <img className={styles.img} src="/contacts/contacts_768.svg" alt=""/> :  null
                 }

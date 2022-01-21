@@ -9,7 +9,7 @@ const Sale:FunctionComponent = (  { })  =>{
 const size =useWindowSize();
     return(
         <>
-            {size.width > 800 ?
+            {size.width > 1200 ?
                 <div className={styles.sale}>
                     <img className={styles.sale_svg} src="/sale.svg" alt=""/>
                     <div className={styles.container}>
@@ -29,8 +29,8 @@ const size =useWindowSize();
 
                 </div> : null
             }
-            {size.width < 800 && size.width>600 ? <Sale_768 /> : null}
-            {size.width < 600 ? <Sale_360 /> : null}
+            {size.width < 1200 && size.width>720 ? <Sale_768 /> : null}
+            {size.width < 720 ? <Sale_360 /> : null}
         </>
     )
 }

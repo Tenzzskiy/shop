@@ -1,0 +1,42 @@
+.title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 120%;
+  padding-top: 80px;
+  padding-bottom: 24px;
+  text-align: center ;
+  color: var(--description);
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  padding:16px ;
+  height: 184px;
+  justify-items: center;
+
+  .faded{
+    box-shadow: 7px 7px 30px rgba(14, 14, 82, 0.15);
+    margin-right: 16px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 104px;
+      height: 52px;
+      padding: 26px;
+    }
+  }
+}
+.partners_360{
+
+
+}
+.dots{
+  div{
+    position: absolute;
+    bottom: 60px;
+    left: 42%;
+  }
+}

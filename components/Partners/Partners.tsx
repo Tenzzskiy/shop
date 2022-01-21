@@ -1,6 +1,7 @@
 import React, {FunctionComponent} from "react";
 import styles from './Partners.module.scss'
 import {useWindowSize} from "../../Hooks/useWindowSize";
+import {Partners_360} from "./Partners_360/Partners_360";
 
 
 export const Partners:FunctionComponent = ( { }) =>{
@@ -29,7 +30,9 @@ export const Partners:FunctionComponent = ( { }) =>{
                 </div> : null
 
             }
-
+            {size.width < 690 ?
+                <Partners_360 /> : null
+            }
         </>
     )
 }

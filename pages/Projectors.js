@@ -1,4 +1,4 @@
-import {Preferences}
+
 import Layout from "../components/Layout/Layout";
 import MediumHeaderComponent from "../components/HeaderComponent/MediumHeader/MediumHeader";
 import {Preferences} from "../components/Preferences/Preferences";
